@@ -1,0 +1,37 @@
+
+//test functions
+
+println("anonymous function.");
+println(lambda(x) {x - 3;} (6));
+
+println("nested function");
+function retLam() {
+    lambda(x) {x + 1;};
+}
+x = retLam();
+
+//nested function  and pass functions
+println(x(3));
+
+println("pass function");
+function functest(a) {
+    a(5);
+}
+println(functest(lambda(x) { x + 10;}));
+
+// first class function test
+println("first class function test");
+function f(x)
+    {
+    lambda (y) { x + y; };
+    }
+
+a = f(3);
+b = f(11);
+
+println("a(5) is ",a(5));      // should be 8
+println("b(6) is ",b(6));      // should be 17
+println("a(10) is ",a(10));    // should be 13
+
+//test functions
+

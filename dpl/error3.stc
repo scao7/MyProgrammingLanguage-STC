@@ -1,0 +1,8 @@
+//check illigal subtract
+
+function foo() {
+    a = "hello" - "word";
+}
+foo();
+
+//check illigal subtract

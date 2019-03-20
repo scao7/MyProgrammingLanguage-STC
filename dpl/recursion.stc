@@ -1,0 +1,18 @@
+//check recursion
+
+function fib(n) {
+    if (n == 0) {
+        0;
+    } else if (n == 1) {
+        1;
+    } else {
+        n1 = fib(n-1);
+        n2 = fib(n-2);
+        n1 + n2;
+    }
+}
+print("fib(10) is ");
+println(fib(10));
+
+
+//check recursion

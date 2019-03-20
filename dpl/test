@@ -1,0 +1,5 @@
+function node(value){
+	this.value = 9;
+}
+ n  = node(5);
+println(n.value);

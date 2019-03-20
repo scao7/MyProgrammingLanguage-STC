@@ -1,0 +1,18 @@
+//check conditional 
+
+function b(a) {
+    if (a == 0) {
+        println("a = ",a);
+    } else {
+        println("a = ", a);
+    }
+}
+
+println("b(0) is ");
+b(0);
+println("b(10) is ");
+b(10); 
+println("roll" == "tide");
+println("roll" == "roll");
+
+//check conditional

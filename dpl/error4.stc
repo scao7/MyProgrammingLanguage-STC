@@ -1,0 +1,12 @@
+//check undifine error 
+
+//chekc using  reserved words as identifier
+
+function a(c){
+	value = 1;
+}
+println(" check environemnt");
+println(value);
+
+//check undefine error
+

@@ -1,0 +1,8 @@
+//check for parenthesis
+
+function foo() {
+    a = 3;
+
+foo();
+ println("chekc close brace.");
+//check for parenthesis

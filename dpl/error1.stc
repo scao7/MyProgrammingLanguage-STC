@@ -1,0 +1,8 @@
+//check mission semicolon
+
+function foo() {
+    a = 1;
+}
+foo()
+println("this is the function for checking semicolon")
+//check mission semicolon

@@ -1,0 +1,9 @@
+// create array
+
+a = array(9);
+a[0] = 1; a[1] = 2; a[2] = 3;
+println(a[0], a[1], a[2]);
+println("the array capacity is ", arraySize(a));
+println(a);
+
+//create array
