@@ -27,7 +27,7 @@ To test my test case by using the comment below.
   Because my wrong direction, finally rewrite, but some feature like read file can't work properly, but everything else is fine. 
 
   My grammar of the language has been revised several time because of the unfamiliar of the concept of programming languages.
-  Now this language is very similar to javascript with out the "var" definition
+  Now this language is very similar to javascript without the "var" definition
 
   I also have 3 pretty print test case. 
   
