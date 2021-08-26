@@ -5,7 +5,7 @@ My programming language grammar is similar to javascript, I name it with dpl wit
 
 dpl is the exacutable file that compile the .stc extension file.
 
-`./dpl filname` to compile the scripts.
+`./dpl filname.stc` to compile the scripts.
 
 Using the makefile and .stc file to understand my grammar
 
