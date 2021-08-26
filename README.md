@@ -9,21 +9,35 @@ dpl is the exacutable file that compile the .stc extension file.
 
 Using the makefile and .stc file to understand my grammar
 
-some basic grammar, this language is similar to C with the dynamic variable definition like python.
+This language is similar to C with the dynamic variable definition like python.
+Hello world program:
 ```
-x = 1 // define variable 
-println // println
-function a(){} //function define
-a() // call function
-if{}
-else{} // condition 
-while (){} //loop
-for(){} //loop
-array[0] // array operation
+println("Hello world!"); // println
 ```
-There are also some test cases
+comments
+```
+// this is comments 
+```
+variable definition
+```
+x = 1; // define variable 
+a = array(size); // define array
+```
+loop:
+```
+while(true){ code block } // while loop 
+for (i=1;i<10;i++){ code block} // for loop
+```
+condition:
+```
+if {code block} else {code block} // if else condition 
+```
+function
+```
+function f( parameter){code block} // function definition
+f(); //call a function
+```
 
-```
 //anonymous function test
 
 println("test the lambda function :");
