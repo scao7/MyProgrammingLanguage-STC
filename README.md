@@ -1,9 +1,12 @@
 # dpl
-My own programming language design
-the objects functionality still doesn't work
-I think it is not just a reference to create new languages
+This is a project that using the c programming language to build own programming language.
 
-I will build another programming language in the future if I have good ideas
+My programming language grammar is similar to javascript, I name it with stc with the extension .stc. 
 
 Using the makefile and .stc file to understand my grammar
+
 There are also some test cases
+
+```
+
+```
