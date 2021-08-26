@@ -50,5 +50,16 @@ println("roll" == "roll");
 //check conditional
 ```
 ```
+sum = 0;
 
+fp = open("sum.dat");
+
+i = readInt(fp);
+while(!(eof(fp)))
+{
+    sum = sum + i;
+    i = readInt(fp);
+}
+println(sum);
+close(fp);
 ```
